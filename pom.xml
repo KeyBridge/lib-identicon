@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>keybridge.lib</groupId>
+  <artifactId>identicon</artifactId>
+  <version>1.0.0</version>
+  <packaging>jar</packaging>
+
+  <name>lib-identicon</name>
+  <description>Identicon image rendering engine and utility.
+
+    This implementation has been generalized to accept and generate
+    a Identicon image based upon the hashed value of any Java object.
+
+    v1.0.0 - first release, based upon Don Park's original code ca 2012
+  </description>
+
+  <organization>
+    <name>Key Bridge</name>
+    <url>http://keybridge.ch</url>
+  </organization>
+  <url>http://keybridge.ch</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
+  </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.hamcrest</groupId>
+      <artifactId>hamcrest-core</artifactId>
+      <version>1.3</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+
+  <distributionManagement>
+    <repository>
+      <id>archiva.internal</id>
+      <name>Internal Release Repository</name>
+      <url>http://black:8088/repository/internal/</url>
+    </repository>
+    <snapshotRepository>
+      <id>archiva.snapshots</id>
+      <name>Internal Snapshot Repository</name>
+      <url>http://black:8088/repository/snapshots/</url>
+    </snapshotRepository>
+  </distributionManagement>
+</project>
