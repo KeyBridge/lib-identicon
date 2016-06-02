@@ -7,7 +7,7 @@ The original was (and this implementation is) a 9-block graphic.
 
 ## Example
 
-![example](identicon-eg.png)
+![example](docs/identicon-eg.png)
 
 ## License
 
