@@ -84,9 +84,7 @@ public class Identicon {
    * Generate a ETag to correspond with the generated Identicon image based upon
    * the provided Object instance.
    *
-   * @param object    the object to hash
-   * @param imageSize the image horizontal and vertical size in pixels (default
-   *                  is 64)
+   * @param object the object to hash
    * @return the Identicon image ETAG string
    */
   public static String getETag(Object object) {
