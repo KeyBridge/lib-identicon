@@ -35,6 +35,6 @@ Image ETags are also available:
 
     String etag = Identicon.getETag(object, imageSize);
 
-See the `IdenticonUtilTest` for more examples.
+See the `IdenticonUnitTest` for more examples.
 
 Enjoy!

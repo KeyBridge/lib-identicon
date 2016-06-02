@@ -36,7 +36,7 @@ import org.junit.Test;
  *
  * @author jesse
  */
-public class IdenticonUtilTest {
+public class IdenticonUnitTest {
 
   private static final String INIT_PARAM_INET_SALT = "1321321321321321";
   private static final String PARAM_IDENTICON_CODE = "code";
@@ -48,7 +48,7 @@ public class IdenticonUtilTest {
 
   private IdenticonRenderer renderer = NineBlockIdenticonRenderer.getInstance();
 
-  public IdenticonUtilTest() {
+  public IdenticonUnitTest() {
   }
 
   @Test
