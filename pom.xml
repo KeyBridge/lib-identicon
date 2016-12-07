@@ -19,7 +19,6 @@
     <name>Key Bridge</name>
     <url>http://keybridge.ch</url>
   </organization>
-  <url>http://keybridge.ch</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -42,16 +41,12 @@
     </dependency>
   </dependencies>
 
+
   <distributionManagement>
     <repository>
       <id>archiva.internal</id>
-      <name>Internal Release Repository</name>
-      <url>http://black:8088/repository/internal/</url>
+      <url>${repository.url}</url>
     </repository>
-    <snapshotRepository>
-      <id>archiva.snapshots</id>
-      <name>Internal Snapshot Repository</name>
-      <url>http://black:8088/repository/snapshots/</url>
-    </snapshotRepository>
   </distributionManagement>
+
 </project>
